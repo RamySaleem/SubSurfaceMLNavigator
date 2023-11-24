@@ -42,7 +42,13 @@ Eight regression models and five classification models are assessed using valida
 
 Future work
 ===========
-To develop a workflow and web-based front end for the script, which will allow to interpret complete geological data.
+## Future Research Directions:
+
+This research opens avenues for further exploration. Firstly, evaluating deep learning techniques like artificial neural networks could enhance fault attribute and displacement-distance profile predictions. Integrating these networks into a comprehensive framework may unveil their collective potential in addressing subsurface interpretation challenges.
+
+Additionally, expanding data sources to include geological and geophysical data, such as seismic attributes or well-log information, could enhance model accuracy and robustness. This expansion may lead to a more thorough understanding and interpretation of subsurface faults.
+
+Exploring the applicability of these models across diverse geological settings and regions is crucial to assess their adaptability and generalizability. Lastly, future studies could focus on developing predictive uncertainty quantification techniques to refine model interpretations, fostering the continuous integration of advanced techniques into practical subsurface exploration and environmental management activities.
 
 Acknowledgements 
 =================
