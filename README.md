@@ -30,7 +30,7 @@ The workflow consists of six well-defined stages designed to address the complex
 
 6. **Enhanced Subsurface Interpretation:** Utilize user input displacement values, predicted distances, fault length, maximum displacement, and profile patterns to generate a displacement-distance plot. This comprehensive guide aids interpreters in understanding complex geological systems and advancing subsurface structure comprehension.
 
-# ** Machine Learning Model Performance:**
+** Machine Learning Model Performance:**
 
 ** Correlation Analysis and Feature Importance:**
 
