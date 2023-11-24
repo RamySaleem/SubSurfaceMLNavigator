@@ -13,6 +13,8 @@ For the task of estimating maximum displacement, the Random Forest model demonst
 
 Collectively, these four models offer a valuable tool for generating displacement-distance plots and subsurface fault conceptual models, providing interpretational guidance enriched with critical details such as lithology, reading locations on the fault, and uncertainty classification. This comprehensive workflow, incorporating regression and classification ML models, serves as an indispensable initial interpretation guide based on displacement-distance profiles.
 
+![](https://i.imgur.com/nz40m61.jpg)
+
 # Abstract
 This study explores the development of effective machine-learning models to predict fault characteristics in coal mines. Using a dataset of 110 faults and 930 samples, eight regression models and five classification models were tested. The best-performing models, including Random Forest and Decision Tree, demonstrated high accuracy in predicting fault attributes. The study emphasizes the practical application of these models in creating displacement-distance plots and subsurface fault conceptual models, aiding interpretation with details like lithology and reading location on the fault. Overall, the workflow serves as a valuable first-step interpretation guide for displacement-distance profiles.
 
