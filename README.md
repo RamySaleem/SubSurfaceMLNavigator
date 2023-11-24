@@ -11,6 +11,24 @@ For the task of estimating maximum displacement, the Random Forest model demonst
 
 Collectively, these four models offer a valuable tool for generating displacement-distance plots and subsurface fault conceptual models, providing interpretational guidance enriched with critical details such as lithology, reading locations on the fault, and uncertainty classification. This comprehensive workflow, incorporating regression and classification ML models, serves as an indispensable initial interpretation guide based on displacement-distance profiles.
 
+# Abstract
+This study explores the development of effective machine-learning models to predict fault characteristics in coal mines. Using a dataset of 110 faults and 930 samples, eight regression models and five classification models were tested. The best-performing models, including Random Forest and Decision Tree, demonstrated high accuracy in predicting fault attributes. The study emphasizes the practical application of these models in creating displacement-distance plots and subsurface fault conceptual models, aiding interpretation with details like lithology and reading location on the fault. Overall, the workflow serves as a valuable first-step interpretation guide for displacement-distance profiles.
+
+# Methodology
+
+The workflow consists of six well-defined stages designed to address the complexities of subsurface interpretation. Here's a breakdown of the methodology:
+
+1. **Fault Length Prediction:** Select an optimal regression model trained to predict fault length using various input features like vertical displacement, coal bed horizon name, lithological attributes, stratigraphic disposition, and horizon uncertainty.
+
+2. **Distance Prediction:** Choose a regression model to predict distances from a reference point (upper tip of the fault). The predicted distance is stored for later use in predicting displacement-distance plots.
+
+3. **Maximum Displacement Prediction:** Use the predicted fault length from the first step to estimate maximum displacement. Select a suitable regression model for this projection, setting the stage for displacement profile pattern predictions.
+
+4. **Profile Pattern Prediction:** Establish an optimal classification model for predicting displacement-distance profile patterns. Inputs include fault length prediction and maximum displacement from previous steps.
+
+5. **Integrative Model Outputs:** Combine predicted displacement-distance profile patterns to create a conceptual representation. Highlight stratigraphic offsets and convey mechanical stratigraphy attributes.
+
+6. **Enhanced Subsurface Interpretation:** Utilize user input displacement values, predicted distances, fault length, maximum displacement, and profile patterns to generate a displacement-distance plot. This comprehensive guide aids interpreters in understanding complex geological systems and advancing subsurface structure comprehension.
 
 Future work
 ===========
