@@ -10,3 +10,23 @@ The outcomes of this study highlighted the four most reliable and accurate ML mo
 For the task of estimating maximum displacement, the Random Forest model demonstrated strong predictive capabilities, yielding R-squared values of 0.9490 and 0.9172, MAE values of 27 and 74, and RMSE values of 50 and 145 on the validation and testing sets, respectively. In contrast, the Random Forest Classifier model exhibited exceptional performance in classifying displacement-distance profile patterns, achieving accuracy rates of 0.80 on both the validation and testing sets, precision rates of 0.82 and 0.70, and recall rates of 0.87 and 0.75, respectively.
 
 Collectively, these four models offer a valuable tool for generating displacement-distance plots and subsurface fault conceptual models, providing interpretational guidance enriched with critical details such as lithology, reading locations on the fault, and uncertainty classification. This comprehensive workflow, incorporating regression and classification ML models, serves as an indispensable initial interpretation guide based on displacement-distance profiles.
+
+
+![](https://i.imgur.com/B4itK12.jpg)
+
+
+Future work
+===========
+To develop a workflow and web-based front end for the script, which will allow to interpret complete geological data.
+
+Acknowledgements 
+=================
+The work contained in this repositories contains work conducted during a PhD study undertaken as part of the Natural Environment Research Council (NERC) Centre for Doctoral Training (CDT) in Oil & Gas funded 50% through its National Productivity Investment Fund grant number NE/R01051X/1 and 50% by the University of Aberdeen through its PhD Scholarship Scheme. The support of both organisations is gratefully acknowledged. The work is reliant on Open-Source Python Libraries, particularly numpy, OpenCV, cv2 matplotlib, bruges and pandas and contributors to these are thanked, along with Jovian and GitHub for open access hosting of the Python scripts for the study.
+
+![University of Aberdeen](https://i.imgur.com/PILyj4m.jpg)
+
+![NERC-CDT](https://nerc-cdt-oil-and-gas.ac.uk/wp-content/uploads/news/2015-news-NERC-funding.jpg)
+
+![NERC](https://auracdt.hull.ac.uk/wp-content/uploads/2019/11/UKRI_NER_Council-Logo_Horiz-RGB.png)
+
+![CDT](https://i.imgur.com/QDOhcN3.png)
