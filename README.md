@@ -30,13 +30,13 @@ The workflow consists of six well-defined stages designed to address the complex
 
 6. **Enhanced Subsurface Interpretation:** Utilize user input displacement values, predicted distances, fault length, maximum displacement, and profile patterns to generate a displacement-distance plot. This comprehensive guide aids interpreters in understanding complex geological systems and advancing subsurface structure comprehension.
 
-# **4. Machine Learning Model Performance:**
+# ** Machine Learning Model Performance:**
 
-**4.1 Correlation Analysis and Feature Importance:**
+** Correlation Analysis and Feature Importance:**
 
 In this study, a correlation matrix indicates strong relationships among input features, with notable correlations between total fault length and displacement-distance patterns (0.77) and between fault length and maximum displacement (0.76). Feature importance analysis identifies displacement and fault position as crucial, suggesting their significant impact on predictions. To address potential issues like overfitting, the study carefully selects input variables for each model.
 
-**4.2 Evaluation of Model Performance:**
+** Evaluation of Model Performance:**
 
 Eight regression models and five classification models are assessed using validation and testing sets, ensuring robustness and generalization. The Random Forest model emerges as the most powerful predictor, achieving high accuracy in fault length (R-squared 0.8832), maximum displacement (R-squared 0.9490), and displacement-distance profile patterns (Accuracy 0.80) on the validation set. However, caution is advised due to potential overfitting in the Decision Tree model. Testing set results reaffirm model reliability, showcasing precision in predicting fault length (R-squared 0.8825), maximum displacement (R-squared 0.9172), and displacement-distance patterns (Accuracy 0.80). The models demonstrate promising applications across diverse coalmine datasets, underlining their reliability for subsurface predictions.
 
