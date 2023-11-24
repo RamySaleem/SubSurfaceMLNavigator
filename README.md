@@ -40,6 +40,25 @@ In this study, a correlation matrix indicates strong relationships among input f
 
 Eight regression models and five classification models are assessed using validation and testing sets, ensuring robustness and generalization. The Random Forest model emerges as the most powerful predictor, achieving high accuracy in fault length (R-squared 0.8832), maximum displacement (R-squared 0.9490), and displacement-distance profile patterns (Accuracy 0.80) on the validation set. However, caution is advised due to potential overfitting in the Decision Tree model. Testing set results reaffirm model reliability, showcasing precision in predicting fault length (R-squared 0.8825), maximum displacement (R-squared 0.9172), and displacement-distance patterns (Accuracy 0.80). The models demonstrate promising applications across diverse coalmine datasets, underlining their reliability for subsurface predictions.
 
+# Conclusion:
+
+This study extensively explored the effectiveness of machine learning (ML) models in predicting fault attributes, including length, distance from a reference point, maximum displacement, and displacement-distance profile patterns. Key findings and conclusions are summarized as follows:
+
+- **Model Selection:** After evaluating eight ML models, Random Forest emerged as the most reliable for predicting fault length and maximum displacement, as well as classifying displacement-distance patterns. The Decision Tree model also demonstrated high reliability in predicting distances from a reference point.
+
+- **Critical Input Features:** The study identified a set of five key input features crucial for accurate predictions, emphasizing their significance in achieving high precision for fault length and distance predictions. Any substantial reduction in input features resulted in decreased prediction accuracy.
+
+- **Dataset Splitting Importance:** Effective dataset splitting into training, validation, and testing sets was highlighted as critical. Random splitting significantly impacted prediction performance, reinforcing the importance of careful data splitting based on geological, structural, or tectonic regions to ensure model stability and reliability.
+
+- **Fault Attributes Analysis:** Geometric parameters, uncertainty classification, stratigraphic characteristics, and sample positioning were identified as major factors guiding subsurface interpretation using displacement-distance profiles.
+
+- **Integration of ML Models:** The study advocated for the integration of regression and classification ML models as a comprehensive solution to complex subsurface interpretation challenges, addressing limitations inherent in standalone ML models.
+
+In conclusion, this research showcased the significant potential and efficiency of ML techniques in guiding subsurface interpretations, providing a coherent workflow for predicting displacement-distance plots and associated subsurface fault conceptual models.
+
+
+
+
 Future work
 ===========
 ## Future Research Directions:
