@@ -14,21 +14,21 @@ Collectively, these four models offer a valuable tool for generating displacemen
 # Abstract
 This study explores the development of effective machine-learning models to predict fault characteristics in coal mines. Using a dataset of 110 faults and 930 samples, eight regression models and five classification models were tested. The best-performing models, including Random Forest and Decision Tree, demonstrated high accuracy in predicting fault attributes. The study emphasizes the practical application of these models in creating displacement-distance plots and subsurface fault conceptual models, aiding interpretation with details like lithology and reading location on the fault. Overall, the workflow serves as a valuable first-step interpretation guide for displacement-distance profiles.
 
-**Dataset Overview:**
+# Dataset Overview:
 
-**1. Data Background:**
+## 1. Data Background:
 
 The study area covers approximately 323.29 km² of closely spaced coal mines, reaching depths of up to 2 km. Data sources include mine workings, boreholes, seismic profiles, and surface exposures. Original interpretations by Drozdzewski et al. (1980) provided geological insights, forming the basis for a refined uncertainty classification framework. The structured dataset includes lithology, formation names, coal seams, and stratigraphic units.
 
-**2. Data Preparation:**
+## 2. Data Preparation:
 
 The dataset consists of 14 subsurface cross-sections, focusing on the western region of the Ruhr coalfield. Analysis involved 346 traced thrust faults, with in-depth examination of 100 faults for training and validation sets and 10 for testing. Selection prioritized faults with calculable coal seam horizon displacement, enabling precise displacement-distance profile characterization.
 
-**3 Data Preprocessing:**
+## 3 Data Preprocessing:
 
 Preprocessing involved splitting the dataset into training, validation, and testing sets, ensuring similarity between training and validation sets. Standard scaling was applied for normalization, transforming input features to a mean of 0 and standard deviation of 1.
 
-**4 Exploratory Data Analysis (EDA):**
+## 4 Exploratory Data Analysis (EDA):
 
 EDA included analysis of 930 data samples from 110 thrust faults, exploring both categorical and numerical data. Input features for ML models were identified, and histograms revealed insights into fault characteristics, spatial distribution, and geological parameters. Descriptive statistics, such as mean distance and displacement values, provided a comprehensive overview of the dataset, forming a foundation for further specialized analyses and ML modeling for fold-thrust structures.
 
