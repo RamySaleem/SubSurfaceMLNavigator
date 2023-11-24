@@ -68,6 +68,8 @@ In this study, a correlation matrix indicates strong relationships among input f
 
 Eight regression models and five classification models are assessed using validation and testing sets, ensuring robustness and generalization. The Random Forest model emerges as the most powerful predictor, achieving high accuracy in fault length (R-squared 0.8832), maximum displacement (R-squared 0.9490), and displacement-distance profile patterns (Accuracy 0.80) on the validation set. However, caution is advised due to potential overfitting in the Decision Tree model. Testing set results reaffirm model reliability, showcasing precision in predicting fault length (R-squared 0.8825), maximum displacement (R-squared 0.9172), and displacement-distance patterns (Accuracy 0.80). The models demonstrate promising applications across diverse coalmine datasets, underlining their reliability for subsurface predictions.
 
+![](https://i.imgur.com/syGMMLn.jpg)
+
 # Conclusion:
 
 This study extensively explored the effectiveness of machine learning (ML) models in predicting fault attributes, including length, distance from a reference point, maximum displacement, and displacement-distance profile patterns. Key findings and conclusions are summarized as follows:
