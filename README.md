@@ -71,7 +71,7 @@ Exploring the applicability of these models across diverse geological settings a
 
 Acknowledgements 
 =================
-The work contained in this repositories contains work conducted during a PhD study undertaken as part of the Natural Environment Research Council (NERC) Centre for Doctoral Training (CDT) in Oil & Gas funded 50% through its National Productivity Investment Fund grant number NE/R01051X/1 and 50% by the University of Aberdeen through its PhD Scholarship Scheme. The support of both organisations is gratefully acknowledged. The work is reliant on Open-Source Python Libraries, particularly numpy, OpenCV, cv2 matplotlib, bruges and pandas and contributors to these are thanked, along with Jovian and GitHub for open access hosting of the Python scripts for the study.
+This research presents findings derived from a PhD study conducted within the framework of the Natural Environment Research Council (NERC) Centre for Doctoral Training (CDT) in Oil & Gas. Funding for this study was generously provided, with 50% coming from NERC through its National Productivity Investment Fund (grant number NE/R01051X/1) and the remaining 50% granted by the University of Aberdeen via its PhD Scholarship Scheme. We express our sincere gratitude to both organisations for their unwavering support. Our research heavily relies on open-source Python libraries, particularly Pandas, Numpy, Seaborn, Plotly, and Matplotlib. We extend our appreciation to the developers and contributors of these libraries and to GitHub for their invaluable open-access hosting services, which make our Python scripts accessible to the broader research community.
 
 ![University of Aberdeen](https://i.imgur.com/PILyj4m.jpg)
 
