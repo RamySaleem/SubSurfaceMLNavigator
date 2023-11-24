@@ -86,8 +86,9 @@ This study extensively explored the effectiveness of machine learning (ML) model
 
 In conclusion, this research showcased the significant potential and efficiency of ML techniques in guiding subsurface interpretations, providing a coherent workflow for predicting displacement-distance plots and associated subsurface fault conceptual models.
 
+![](https://i.imgur.com/GnCfOfG.jpg)
 
-
+![](https://i.imgur.com/ISA4Z2h.jpg)
 
 Future work
 ===========
