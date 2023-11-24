@@ -1,6 +1,8 @@
 # SubSurfaceMLNavigator
 ## Geological Inference Through Displacement-Distance Profile Guided by Machine Learning. 
 
+![](https://i.imgur.com/OqN9F4J.jpg)
+
 This research study offers a comprehensive exploration of the process involved in developing optimal machine learning (ML) models for predicting various key attributes of thrust structures along vertical sections within a coalmine dataset. Specifically, it focuses on predicting fault length, distance from a reference point (located at the upper tip of the fault), maximum displacement, and displacement-distance profile patterns. The methodology employed encompasses a series of steps, including the creation of ML models, feature selection, data partitioning, data exploration, training process optimization, performance assessment, and practical applications. A total of eight ML models, including linear regression, decision trees, random forests, lasso, ridge regression, elastic net, light GBM regressor, and extreme gradient boosting (XGBoost), were evaluated for predicting fault length, distance from a reference point, and maximum displacement using a dataset containing 110 faults and 930 samples, with five input features.
 
 Additionally, five classification models, namely K nearest neighbour (KNN), decision trees, support vector machine (SVM), logistic regression, and random forests, were trained to classify displacement-distance profile patterns of the thrusts under investigation. To assess the robustness of these ML models, the dataset was divided into training, validation, and testing sets (comprising 90, 10, and 10 faults, respectively). The performance of these ML models was thoroughly evaluated, and the results were visually presented using histogram plots.
@@ -32,7 +34,7 @@ Preprocessing involved splitting the dataset into training, validation, and test
 
 EDA included analysis of 930 data samples from 110 thrust faults, exploring both categorical and numerical data. Input features for ML models were identified, and histograms revealed insights into fault characteristics, spatial distribution, and geological parameters. Descriptive statistics, such as mean distance and displacement values, provided a comprehensive overview of the dataset, forming a foundation for further specialized analyses and ML modeling for fold-thrust structures.
 
-![](https://imgur.com/yQSFY4P)
+![]([https://imgur.com/yQSFY4P](https://i.imgur.com/yQSFY4P.jpg))
 
 # Methodology
 
@@ -49,6 +51,10 @@ The workflow consists of six well-defined stages designed to address the complex
 5. **Integrative Model Outputs:** Combine predicted displacement-distance profile patterns to create a conceptual representation. Highlight stratigraphic offsets and convey mechanical stratigraphy attributes.
 
 6. **Enhanced Subsurface Interpretation:** Utilize user input displacement values, predicted distances, fault length, maximum displacement, and profile patterns to generate a displacement-distance plot. This comprehensive guide aids interpreters in understanding complex geological systems and advancing subsurface structure comprehension.
+
+![](https://i.imgur.com/ScpIbFz.jpg)
+
+![](https://i.imgur.com/rwWIoHO.jpg)
 
 # Machine Learning Model Performance:
 
