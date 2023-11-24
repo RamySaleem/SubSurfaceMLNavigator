@@ -100,6 +100,8 @@ Additionally, expanding data sources to include geological and geophysical data,
 
 Exploring the applicability of these models across diverse geological settings and regions is crucial to assess their adaptability and generalizability. Lastly, future studies could focus on developing predictive uncertainty quantification techniques to refine model interpretations, fostering the continuous integration of advanced techniques into practical subsurface exploration and environmental management activities.
 
+![](https://i.imgur.com/iBbv2wU.gif)
+
 Acknowledgements 
 =================
 This research presents findings derived from a PhD study conducted within the framework of the Natural Environment Research Council (NERC) Centre for Doctoral Training (CDT) in Oil & Gas. Funding for this study was generously provided, with 50% coming from NERC through its National Productivity Investment Fund (grant number NE/R01051X/1) and the remaining 50% granted by the University of Aberdeen via its PhD Scholarship Scheme. We express our sincere gratitude to both organisations for their unwavering support. Our research heavily relies on open-source Python libraries, particularly Pandas, Numpy, Seaborn, Plotly, and Matplotlib. We extend our appreciation to the developers and contributors of these libraries and to GitHub for their invaluable open-access hosting services, which make our Python scripts accessible to the broader research community.
