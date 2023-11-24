@@ -12,9 +12,6 @@ For the task of estimating maximum displacement, the Random Forest model demonst
 Collectively, these four models offer a valuable tool for generating displacement-distance plots and subsurface fault conceptual models, providing interpretational guidance enriched with critical details such as lithology, reading locations on the fault, and uncertainty classification. This comprehensive workflow, incorporating regression and classification ML models, serves as an indispensable initial interpretation guide based on displacement-distance profiles.
 
 
-![](https://i.imgur.com/B4itK12.jpg)
-
-
 Future work
 ===========
 To develop a workflow and web-based front end for the script, which will allow to interpret complete geological data.
