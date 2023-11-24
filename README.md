@@ -32,6 +32,8 @@ Preprocessing involved splitting the dataset into training, validation, and test
 
 EDA included analysis of 930 data samples from 110 thrust faults, exploring both categorical and numerical data. Input features for ML models were identified, and histograms revealed insights into fault characteristics, spatial distribution, and geological parameters. Descriptive statistics, such as mean distance and displacement values, provided a comprehensive overview of the dataset, forming a foundation for further specialized analyses and ML modeling for fold-thrust structures.
 
+![](https://imgur.com/yQSFY4P)
+
 # Methodology
 
 The workflow consists of six well-defined stages designed to address the complexities of subsurface interpretation. Here's a breakdown of the methodology:
