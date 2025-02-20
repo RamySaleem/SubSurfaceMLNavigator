@@ -9,7 +9,9 @@ These models aid in generating displacement-distance plots and subsurface fault 
 
 Acknowledgements 
 =================
-This research presents findings derived from a PhD study conducted within the framework of the Natural Environment Research Council (NERC) Centre for Doctoral Training (CDT) in Oil & Gas. Funding for this study was generously provided, with 50% coming from NERC through its National Productivity Investment Fund (grant number NE/R01051X/1) and the remaining 50% granted by the University of Aberdeen via its PhD Scholarship Scheme. We express our sincere gratitude to both organisations for their unwavering support. Our research heavily relies on open-source Python libraries, particularly Pandas, Numpy, Seaborn, Plotly, and Matplotlib. We extend our appreciation to the developers and contributors of these libraries and to GitHub for their invaluable open-access hosting services, which make our Python scripts accessible to the broader research community.
+This research, part of a PhD study under the NERC Centre for Doctoral Training (CDT) in Oil & Gas, was funded by NERC's National Productivity Investment Fund (grant NE/R01051X/1) and the University of Aberdeen's PhD Scholarship Scheme.
+
+We sincerely thank both organisations for their support. Our work relies heavily on open-source Python libraries such as Pandas, Numpy, Seaborn, Plotly, and Matplotlib. We also appreciate the developers of these libraries and GitHub for their open-access hosting services.
 
 ![University of Aberdeen](https://i.imgur.com/PILyj4m.jpg)
 
