@@ -1,8 +1,6 @@
 # SubSurfaceMLNavigator
 ## Geological Inference Through Displacement-Distance Profile Guided by Machine Learning. 
 
-![](https://i.imgur.com/OqN9F4J.jpg)
-
 This research study offers a comprehensive exploration of the process involved in developing optimal machine learning (ML) models for predicting various key attributes of thrust structures along vertical sections within a coalmine dataset. Specifically, it focuses on predicting fault length, distance from a reference point (located at the upper tip of the fault), maximum displacement, and displacement-distance profile patterns. The methodology employed encompasses a series of steps, including the creation of ML models, feature selection, data partitioning, data exploration, training process optimization, performance assessment, and practical applications. A total of eight ML models, including linear regression, decision trees, random forests, lasso, ridge regression, elastic net, light GBM regressor, and extreme gradient boosting (XGBoost), were evaluated for predicting fault length, distance from a reference point, and maximum displacement using a dataset containing 110 faults and 930 samples, with five input features.
 
 Additionally, five classification models, namely K nearest neighbour (KNN), decision trees, support vector machine (SVM), logistic regression, and random forests, were trained to classify displacement-distance profile patterns of the thrusts under investigation. To assess the robustness of these ML models, the dataset was divided into training, validation, and testing sets (comprising 90, 10, and 10 faults, respectively). The performance of these ML models was thoroughly evaluated, and the results were visually presented using histogram plots.
